@@ -3,8 +3,8 @@ Hi there, welcome!
 This is a Cypress test script developed to automate a web application developed for a Billable Hours project. 
 The project is aimed at helping law firms and professionals manage their billable hours efficiently. Our web and mobile application, backed by a robust API, enables users to upload CSV timesheets and effortlessly generate invoices. With Billable Hours, users can streamline their invoicing process and ensure accurate revenue collection. 
 
-## How to Setup and Run the Test Scripts
-**Setting Up Cypress**
+# How to Setup and Run the Test Scripts
+### **Setting Up Cypress**
 *Node.js Installation:*
 Ensure you have Node.js installed on your computer. You can download and install Node.js from the official website: https://nodejs.org/
 Verify your Node.js installation by opening a command prompt or terminal and running:
@@ -17,11 +17,11 @@ Ensure you have Vscode on your computer. You can download and install vscode fro
 *Folder Creation:*
 Created a new folder on your computer's desktop interface and named it. Mine was named "CYPRESS_AUTOMATION_CYNTHIA" 
 
-**Installing Package.json file**
+### **Installing Package.json file**
 On your Vscode, open the folder already created on  desktop interface
 Once opened, open a “New Terminal”, and execute the command **“npm -i init”** (to create a package.json file)
 
-**Installing Cypress** 
+### **Installing Cypress** 
 - To install Cypress, run this command **“npm install cypress –save -dev”** on the same terminal or on a new terminal
 - On installation, “node_modules  folder” will be created(it contains all cypress libraries) and a "Package-lock.json file"
 - To start the Cypress Test Runner after installation, run this command **“npx cypress open”** (This will launch the Cypress Test Runner UI)
@@ -29,13 +29,13 @@ Once opened, open a “New Terminal”, and execute the command **“npm -i init
 - Create a new spec file, and name it... Once done, it should look like this *"BillableHours.cy.js"*
 - On Vs Code, create all test script in your spec file, but in my case (BillableHours.cy.js)
 
-**Viewing Test Results**
+### **Viewing Test Results**
 -Once you are done with your test scripts on Vs code, open a new terminal and type *"npx cypress open"*
 -Your Test results, including passed and failed tests, will be displayed in the Cypress Test Runner UI.
 -You can click on individual test cases to view detailed information, including assertions and any errors encountered.
 
 
-### Cypress Commands
+# Cypress Commands
 In the test scripts, I used various Cypress commands to interact with the web application and make assertions. The common commands used include:
 - *cy.visit(url)*: Navigate to the specified URL.
 - *cy.get(selector)*: Select an element using CSS selectors.
@@ -45,12 +45,12 @@ In the test scripts, I used various Cypress commands to interact with the web ap
 - *cy.wait(alias)*: Wait for an XHR request to complete using an alias.
 
 
-#### Troubleshooting
+# Troubleshooting
 If you encounter issues with your test scripts, refer to the Cypress documentation for more information: https://docs.cypress.io/
 Ensure that you have the correct project structure and that your test files are placed in the cypress directory.
 Make sure your test scripts use the correct URLs and element selectors based on your application's structure.
 
-##### Contributing
+# Contributing
 I welcome and value your contributions! 
 Here are some ways you can get involved:
 
@@ -62,7 +62,8 @@ Here are some ways you can get involved:
 
 4. Suggestions: If you have valuable suggestions for improving our test suite or test strategies, open an issue and share your ideas. Your insights can lead to more effective testing.
 
-
+# Web Report from Mochawesome
+C:\Users\HP\Desktop\Automated_Testing_Cynthia\cypress\reports\html\index.html
 
 
 
