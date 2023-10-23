@@ -1,7 +1,7 @@
 # Description
 Hi there, welcome! 
-This is a Cypress test script developed to automate a web application developed for the Billable Hours project. 
-This project is aimed at helping law firms and professionals manage their billable hours efficiently. Our web and mobile application, backed by a robust API, enables users to upload CSV timesheets and effortlessly generate invoices. With Billable Hours, users can streamline their invoicing process and ensure accurate revenue collection. 
+This is a Cypress test script developed to automate a web application developed for a Billable Hours project. 
+The project is aimed at helping law firms and professionals manage their billable hours efficiently. Our web and mobile application, backed by a robust API, enables users to upload CSV timesheets and effortlessly generate invoices. With Billable Hours, users can streamline their invoicing process and ensure accurate revenue collection. 
 
 ## How to Setup and Run the Test Scripts
 **Setting Up Cypress**
@@ -12,7 +12,7 @@ node -v
 npm -v
 
 *Visual Studio Code Installation:*
-Ensure you have Vscode on you computer. You can download and install vscode from the official website: https://code.visualstudio.com/download
+Ensure you have Vscode on your computer. You can download and install vscode from the official website: https://code.visualstudio.com/download
 
 *Folder Creation:*
 Created a new folder on your computer's desktop interface and named it. Mine was named "CYPRESS_AUTOMATION_CYNTHIA" 
@@ -47,7 +47,7 @@ In the test scripts, I used various Cypress commands to interact with the web ap
 
 #### Troubleshooting
 If you encounter issues with your test scripts, refer to the Cypress documentation for more information: https://docs.cypress.io/
-Ensure that you have the correct project structure and your test files are placed in the cypress directory.
+Ensure that you have the correct project structure and that your test files are placed in the cypress directory.
 Make sure your test scripts use the correct URLs and element selectors based on your application's structure.
 
 ##### Contributing
